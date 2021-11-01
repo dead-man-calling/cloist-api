@@ -1,0 +1,42 @@
+unknown:
+  code: "-9999"
+  message: "An unknown error has occurred."
+entry-point-exception:
+  code: "-1000"
+  message: "You do not have permission to access this resource."
+access-denied:
+  code: "-1001"
+  message: "A resource that can not be accessed with the privileges it has."
+communication-error:
+  code: "-1002"
+  message: "An error occurred during communication."
+not-authorized-exception:
+  code: "-1003"
+  message: "You do not have permission to request."
+invalid-form-exception:
+  code: "-1004"
+  message: "The input form is not valid."
+sign-in-failed:
+  code: "-1005"
+  message: "Your account does not exist or your input is incorrect."
+user-exist-exception:
+  code: "-1006"
+  message: "You are an existing member."
+vote-exist-exception:
+  code: "-1007"
+  message: "There are votes that are not completed."
+post-not-found:
+  code: "-1008"
+  message: "This post not exist."
+vote-not-found:
+  code: "-1009"
+  message: "This vote not exist."
+user-not-found:
+  code: "-1010"
+  message: "This member not exist."
+gathering-not-found:
+  code: "-1011"
+  message: "This gathering not exist."
+message-not-found:
+  code: "-1012"
+  message: "This message not exist."

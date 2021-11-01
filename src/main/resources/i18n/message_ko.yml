@@ -1,0 +1,42 @@
+unknown:
+  code: "-9999"
+  message: "알 수 없는 오류가 발생하였습니다."
+entry-point-exception:
+  code: "-1000"
+  message: "해당 리소스에 접근하기 위한 권한이 없습니다."
+access-denied:
+  code: "-1001"
+  message: "보유한 권한으로 접근 할 수 없는 리소스 입니다."
+communication-error:
+  code: "-1002"
+  message: "통신 중 오류가 발생하였습니다."
+not-authorized-exception:
+  code: "-1003"
+  message: "해당 요청에 대한 권한이 없습니다."
+invalid-form-exception:
+  code: "-1004"
+  message: "입력 양식이 올바르지 않습니다."
+sign-in-failed:
+  code: "-1005"
+  message: "계정이 존재하지 않거나 입력 값이 정확하지 않습니다."
+user-exist-exception:
+  code: "-1006"
+  message: "이미 가입한 회원입니다."
+vote-exist-exception:
+  code: "-1007"
+  message: "완료되지 않은 투표가 존재합니다."
+post-not-found:
+  code: "-1008"
+  message: "존재하지 않는 게시글입니다."
+vote-not-found:
+  code: "-1009"
+  message: "존재하지 않는 투표입니다."
+user-not-found:
+  code: "-1010"
+  message: "존재하지 않는 회원입니다."
+gathering-not-found:
+  code: "-1011"
+  message: "존재하지 않는 모임입니다."
+message-not-found:
+  code: "-1012"
+  message: "존재하지 않는 메시지입니다."
