@@ -18,7 +18,7 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(swaggerInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.lcc.monastery.controller.business"))
+                .apis(RequestHandlerSelectors.basePackage("com.lcc.cloist.controller.business"))
                 .paths(PathSelectors.any())
                 .build()
                 .useDefaultResponseMessages(false);

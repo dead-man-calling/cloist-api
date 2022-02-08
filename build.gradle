@@ -39,7 +39,7 @@ test {
 }
 
 bootJar {
-	mainClassName = 'com.lcc.monastery.MonasteryApplication'
+	mainClassName = 'com.lcc.cloist.CloistApplication'
 }
 
 bootRun {
